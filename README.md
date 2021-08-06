@@ -7,4 +7,4 @@ Example
 https://redirect.minlaxz.me?url=https://google.com
 ```
 
-Now can share censored link to my friends 🤣
+Now I can share censored link to my friends 🤣
