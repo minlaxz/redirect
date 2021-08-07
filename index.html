@@ -17,8 +17,9 @@
             return (false);
         }
         var url = get('to');
-//         var code = get('code');
-        document.getElementById('direct').href = decodeURIComponent(url) // + "?code=" + code;
+        // var code = get('code');
+        // for https, force or recommended https redirect should hundle.
+        document.getElementById('direct').href = decodeURIComponent("http://"+url) // + "?code=" + code;
         window.location = decodeURIComponent(url) // + "?code=" + code;
     </script>
 </body>
