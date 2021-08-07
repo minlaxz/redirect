@@ -19,7 +19,8 @@
         var url = get('to');
         // var code = get('code');
         // for https, force or recommended https redirect should hundle.
-        document.getElementById('direct').href = decodeURIComponent("http://"+url) // + "?code=" + code;
+        // for pasted link, http or s is there already.
+        document.getElementById('direct').href = decodeURIComponent(url) // + "?code=" + code;
         window.location = decodeURIComponent(url) // + "?code=" + code;
     </script>
 </body>
