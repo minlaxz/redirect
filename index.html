@@ -21,7 +21,8 @@
         // for https, force or recommended https redirect should hundle.
         // for pasted link, http or s is there already.
         document.getElementById('direct').href = decodeURIComponent(url) // + "?code=" + code;
-        window.location = decodeURIComponent(url) // + "?code=" + code;
+//         window.location = decodeURIComponent(url) // + "?code=" + code;
+        window.open(decodeURIComponent(url), '_blank')
     </script>
 </body>
 
